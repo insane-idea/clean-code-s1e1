@@ -1,153 +1,153 @@
 /* Basic Style */
 html {
-    background-color: #f8f8f8;
-    color: #333;
-    font-family: Lato, sans-serif;
+	background-color: #f8f8f8;
+	color: #333;
+	font-family: Lato, sans-serif;
 }
 .intro {
-    width: 500px;
-    margin: 0 auto;
-    display: block;
-    text-align: right;
+	width: 500px;
+	margin: 0 auto;
+	display: block;
+	text-align: right;
 }
 .intro__img {
-    width: 100%;
+	width: 100%;
 }
 .intro__link {
-    font-family: fantasy, cursive;
+	font-family: fantasy, cursive;
 }
 @media (max-width:768px) {
 
-    .intro {
-        text-align: center;
-    }
+	.intro {
+		text-align: center;
+	}
 
 }
 .main-container {
-    display: block;
-    width: 500px;
-    margin: 0 auto 0;
+	display: block;
+	width: 500px;
+	margin: 0 auto 0;
 }
 .task {
-    width: 56%;
-    display: inline-block;
-    flex-grow: 1;
+	width: 56%;
+	display: inline-block;
+	flex-grow: 1;
 }
 .new-task-section__row {
-    display: flex;
+	display: flex;
 }
 input,
 button {
-    outline: none;
+	outline: none;
 }
 
 .add-btn,
 .edit-btn,
 .delete-btn {
-    background: none;
-    border: 0px;
-    color: #888;
-    font-size: 15px;
-    width: 60px;
-    font-family: Lato, sans-serif;
-    cursor: pointer;
+	background: none;
+	border: 0px;
+	color: #888;
+	font-size: 15px;
+	width: 60px;
+	font-family: Lato, sans-serif;
+	cursor: pointer;
 }
 .add-btn:hover,
 .edit-btn:hover,
 .delete-btn:hover {
-    color: #3a3a3a;
+	color: #3a3a3a;
 }
 
 /* Heading */
 .section-header,
 .new-task-section__label {
-    display: block;
-    color: #333;
-    font-weight: 700;
-    font-size: 15px;
-    border-bottom: 2px solid #333;
-    padding: 30px 0 10px;
-    margin: 0;
-    margin-bottom: 1em;
-    text-transform: uppercase;
-    list-style: none;
+	display: block;
+	color: #333;
+	font-weight: 700;
+	font-size: 15px;
+	border-bottom: 2px solid #333;
+	padding: 30px 0 10px;
+	margin: 0;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+	list-style: none;
 }
 input[type="text"] {
-    margin: 0;
-    font-size: 18px;
-    line-height: 18px;
-    height: 21px;
-    padding: 0 9px;
-    border: 1px solid #dDd;
-    background: #FFF;
-    border-radius: 6px;
-    font-family: Lato, sans-serif;
-    color: #888;
+	margin: 0;
+	font-size: 18px;
+	line-height: 18px;
+	height: 21px;
+	padding: 0 9px;
+	border: 1px solid #dDd;
+	background: #FFF;
+	border-radius: 6px;
+	font-family: Lato, sans-serif;
+	color: #888;
 }
 input[type="text"]:focus {
-    color: #333;
+	color: #333;
 }
 
 /* New Task */
 .new-task-section__label {
-    display: block;
-    margin: 0 0 20px;
+	display: block;
+	margin: 0 0 20px;
 }
 .new-task-section__row-input {
-    width: 318px;
+	width: 318px;
 }
 
 /* Task list */
 .incomplete-tasks__item,
 .completed-tasks__item {
-    overflow: hidden;
-    padding: 20px 0;
-    border-bottom: 1px solid #eee;
+	overflow: hidden;
+	padding: 20px 0;
+	border-bottom: 1px solid #eee;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 li > * {
-    vertical-align: middle;
+	vertical-align: middle;
 }
 .completed-tasks__checkbox,
 .incomplete-tasks__checkbox {
-    margin: 0 10px;
+	margin: 0 10px;
 }
 .incomplete-tasks__label,
 .completed-tasks__label {
-    padding-left: 10px;
-    box-sizing: border-box;
-    font-size: 18px;
-    width: 226px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	font-size: 18px;
+	width: 226px;
 }
 
 .delete-btn__img {
-    height: 2em;
-    transform: rotateZ(45deg);
-    transition: transform 200ms ease-in;
+	height: 2em;
+	transform: rotateZ(45deg);
+	transition: transform 200ms ease-in;
 }
 .delete-btn__img:hover {
-    transform: rotateZ(0);
+	transform: rotateZ(0);
 }
 
 /* Completed */
 .completed-tasks .task {
-    text-decoration: line-through;
-    color: #888;
+	text-decoration: line-through;
+	color: #888;
 }
 
 /* Edit Task */
 .incomplete-tasks__input,
 .completed-tasks__input {
-    display: none;
-    width: 226px;
+	display: none;
+	width: 226px;
 }
 .edit-mode .incomplete-tasks__input {
-    display: inline-block;
-    width: 224px;
+	display: inline-block;
+	width: 224px;
 }
 .edit-mode .incomplete-tasks__label {
-    display: none;
+	display: none;
 }
