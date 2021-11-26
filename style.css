@@ -4,21 +4,21 @@ html {
     color: #333;
     font-family: Lato, sans-serif;
 }
-.introduction {
+.intro {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.introduction__img {
+.intro__img {
     width: 100%;
 }
-.introduction__link {
+.intro__link {
     font-family: fantasy, cursive;
 }
 @media (max-width:768px) {
 
-    .introduction {
+    .intro {
         text-align: center;
     }
 
@@ -148,10 +148,10 @@ li > * {
     display: none;
     width: 226px;
 }
-.editMode .incomplete-tasks__input {
+.edit-mode .incomplete-tasks__input {
     display: inline-block;
     width: 224px;
 }
-.editMode .incomplete-tasks__label {
+.edit-mode .incomplete-tasks__label {
     display: none;
 }
